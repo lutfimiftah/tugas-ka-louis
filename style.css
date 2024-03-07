@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1,65;
+}
+
+
+
+.container {
+    width: 1116px;
+    height: 1,076px;
+    padding: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1px;
+}
+
+img {
+    width: 500px;
+    height: 700px;
+}
+
+
+.kolum1 {
+    margin: 20px;
+    height: 50px;
+    padding: 1px;
+}
+
+h1 {
+    width: 55%;
+    padding: 0%;
+}
+    
+
+
+p {
+    width: 60%;
+    padding: 0%;
+    line-height: 1.70;
+    
+    
+
+}
+
+form {
+     
+        width: 0%;
+        padding: 0%;
+        margin: 14px 0;
+      
+}
+
+input[type=text], input[type=password] {
+    width: 400px;
+    margin: 5px 0 ;
+    padding: 12px;
+    color: white;
+
+}
+
+h4 {
+    text-align: right;
+    padding-right: 200px;
+}
+
+button {
+    width: 430px;
+    margin: 5px 0;
+    padding: 12px;
+    color: #1d3e52;
+    cursor: pointer;
+    
+}
+
+h5 {
+    width: 382px;
+height: 29px;
+margin: 100px;
+}
+
+footer {
+    color: #959CB6;
+    ;
+    width: 382px;
+    height: 30px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+    .container {
+        width: 150%;
+        height: 0%;
+        padding: 0%;
+        display: block;
+    }
+
+    input {
+     
+        width: 342px;
+        height: 12px;
+        border: 1px;
+      
+}
+
+h4 {
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.01em;
+text-align: center;
+
+}
+
+    img {
+        width: 100px 0;
+        height: 90px;
+        padding: 0px;
+        margin: 10px;
+       
+    }
+}
+   
+
+
+
